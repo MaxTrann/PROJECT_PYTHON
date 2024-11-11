@@ -1,13 +1,3 @@
-~# Cleaning Data (using Numpy, Pandas)
-# Load Data
-# Aggregate Data
-# SortDataCol
-# deleteMissData
-# deleteOutliers
-
-# Fix Data
-# Remove Invalid Data/ Wrong Label/ Duplicate Data
-
 from dataCLEANING import *
 from dataCRUD import dataProcessing
 import matplotlib.pyplot as plt

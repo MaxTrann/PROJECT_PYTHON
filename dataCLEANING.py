@@ -58,6 +58,4 @@ def main():
     sortedData.to_csv(outfileDataCleaned, index=False) # xuất ra file mới ko có chỉ số cột
     print(f"Dữ liệu đã được cập nhật vào file {outfileDataCleaned} thành công!")
     
-    
-
-    
+#main()

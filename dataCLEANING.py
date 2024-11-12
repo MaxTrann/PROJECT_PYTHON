@@ -59,5 +59,5 @@ def main():
     print(f"Dữ liệu đã được cập nhật vào file {outfileDataCleaned} thành công!")
     
     
-main()
+
     

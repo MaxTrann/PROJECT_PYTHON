@@ -15,9 +15,9 @@ def ShowMenu():
     print ("|________________________________________________________|")
 
 def main():
-    Data_File = 'D:\Python\Final_Project\student_sleep_patterns.csv'
+    Data_File = 'student_sleep_patterns.csv'
     # Data_Frame = pd.read_csv(Data_File)
-    outfileDataCleaned = "D:\\Python\\Final_Project\\file_base\\cleaned_student_sleep_patterns.csv"
+    outfileDataCleaned = "cleaned_student_sleep_patterns.csv"
     Data_Frame = dataProcessing(Data_File)
 
     while True:
@@ -130,7 +130,7 @@ def main():
 
                                 # Lưu dữ liệu đã xử lý vào file
                                 Cleaning_Data.to_csv(outfileDataCleaned, index=False)
-                                print("Data is saved in 'student_sleep_patterns.csv'.")
+                                print("Data is saved in 'cleaned_student_sleep_patterns.csv'.")
                                 break
                             else:
                                 print ("\nInvalid input. Please choose again")
